@@ -1,7 +1,7 @@
 # Mesa Misalignment Environment
 
 
-An environment for producing mesa misalignment, originally proposed by Matthew Barnett [here](https://www.lesswrong.com/posts/AFdRGfYDWQqmkdhFq/a-simple-environment-for-showing-mesa-misalignment). For an introduction to the concept of mesa-misalignment, see [here](https://arxiv.org/abs/1906.01820) and/or [here](https://www.alignmentforum.org/s/r9tYkB2a8Fp4DN8yB). See also [here](https://arxiv.org/pdf/2105.14111.pdf) for a previous implementation of this and similar environments.
+An environment for producing mesa misalignment, originally proposed by Matthew Barnett [here](https://www.lesswrong.com/posts/AFdRGfYDWQqmkdhFq/a-simple-environment-for-showing-mesa-misalignment). For an introduction to the concept of mesa-misalignment, see [here](https://arxiv.org/abs/1906.01820) and/or [here](https://www.alignmentforum.org/s/r9tYkB2a8Fp4DN8yB). See also [here](https://arxiv.org/pdf/2105.14111.pdf) for a previous implementation of this and similar environments and more information about objective robustness.
 
 Basically the task is to pick up keys to unlock chests, but the RL agent learns to pathfind to keys instead while mostly ignoring chests.
 
