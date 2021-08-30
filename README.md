@@ -20,10 +20,15 @@ Data: https://docs.google.com/spreadsheets/d/1hfeJqsCK861Ff7Ne-KNPhf0_Rv3rgn8POz
 To use this repository, first [install conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). Then run
 
 ```conda env -n mesa-misalignment-example python=3.7```
+
 ```conda activate mesa-misalignment-example```
+
 ```pip install -r cpu-requirements.txt```
+
 OR 
+
 ```pip install -r gpu-requirements.txt```
+
 if you're using a GPU.
 
 Thank you to 0x72 for almost all of the art! It was downloaded from [here](https://0x72.itch.io/dungeontileset-ii).
