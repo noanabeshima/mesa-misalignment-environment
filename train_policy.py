@@ -27,7 +27,7 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 
 def main(maze_size=12, n_timesteps=30000000, p_hole = .4, p_chest = .5, p_key = .1, max_ticks=130, grid_scale=3):
-    '''Trains a model with the parameters given
+    '''Trains a model with the given parameters
 
     maze_size      int            Width and height of the maze grid
     n_timesteps    int            Number of timesteps to train for
@@ -40,6 +40,11 @@ def main(maze_size=12, n_timesteps=30000000, p_hole = .4, p_chest = .5, p_key = 
     grid_scale     int            Each 1x1 cell of the grid is expanded
                                     by this width and height before passed
                                     to the convolutional net
+
+    The train env is given by maze_size=12, p_hole = .4, p_chest = .5, p_key = .1,
+                              max_ticks=130, grid_scale=3
+    The test env is given by maze_size=12, p_hole = .4, p_chest = .1, p_key = .1,
+                              max_ticks=130, grid_scale=3)
     '''
 
     model_name = f"{p_hole}p_hole-{p_chest}p_chest-{p_key}p_key-{max_ticks}max_ticks-{n_timesteps}timesteps"

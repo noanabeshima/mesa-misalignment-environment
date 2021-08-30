@@ -31,4 +31,6 @@ OR
 
 if you're using a GPU.
 
+Use `python <file>.py --help` for information on how to play the environment yourself (`play.py`), run a policy for some number of episodes to collect data (`run_policy.py`), or replicate the training process (`train_policy.py`).
+
 Thank you to 0x72 for almost all of the art! It was downloaded from [here](https://0x72.itch.io/dungeontileset-ii).
