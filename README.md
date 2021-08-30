@@ -1,5 +1,7 @@
 # Mesa Misalignment Environment
 
+![Alt text](https://github.com/noanabeshima/mesa-misalignment-environment/blob/main/policy_gifs/test/learned/1.gif)
+
 An environment for producing mesa misalignment, originally proposed by Matthew Barnett [here](https://www.lesswrong.com/posts/AFdRGfYDWQqmkdhFq/a-simple-environment-for-showing-mesa-misalignment). For an introduction to the concept of mesa-misalignment, see [here](https://arxiv.org/abs/1906.01820) and/or [here](https://www.alignmentforum.org/s/r9tYkB2a8Fp4DN8yB).
 
 The environment is a maze/gridworld. Every time the player lands on a key, it is automatically picked up. More than one key can be stored at a time. If the player steps on a chest and has at least one key, the chest is open, a key is lost, and the player gets +1 reward.
@@ -32,5 +34,7 @@ OR
 if you're using a GPU.
 
 Use `python <file>.py --help` for information on how to play the environment yourself (`play.py`), run a policy for some number of episodes to collect data (`run_policy.py`), or replicate the training process (`train_policy.py`).
+
+More samples of the learned policy and a random policy can be found in `mesa-misalignment-environment/policy_gifs`.
 
 Thank you to 0x72 for almost all of the art! It was downloaded from [here](https://0x72.itch.io/dungeontileset-ii).
